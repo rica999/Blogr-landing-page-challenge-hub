@@ -1,0 +1,51 @@
+.body-3{
+    overflow: hidden;
+    font-family: 'Overpass', sans-serif;
+    background-image: url("images/illustration-laptop-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 68%;
+    background-position: -62% 60%;
+    padding: 20em 5em 0;
+    .body-3-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 12em;
+    }
+    .body-3-text{
+        padding-right: 3.5em;
+        .subtitle-body{
+            font-weight: 600;
+            font-size: 1.6rem;
+        }
+        .text-body{
+            font-size: 1em;
+            padding-bottom: 3em;
+            color:hsl(207, 13%, 34%)
+        }
+    }
+}
+@media screen and (max-width:980px) {
+    .body-3{
+        background-image: none;
+        padding: 2em;
+        background-size: 100%;
+        box-sizing: border-box;
+        .body-3-content{
+            grid-template-columns: 1fr;
+            margin-bottom: 0;
+            text-align: center;
+        }
+        .body-3-text{
+            padding-right:0;
+            .subtitle-body{
+                font-weight: 600;
+                font-size: 1.6rem;
+            }
+            .text-body{
+                font-size: 1em;
+                padding-bottom: 1.5em;
+                color:hsl(207, 13%, 34%)
+            }
+        }
+    }
+}

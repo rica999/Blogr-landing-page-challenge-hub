@@ -1,0 +1,48 @@
+.main-view{
+    text-align: center;
+    padding: 6rem 0 10rem 0;
+    color: white;
+    overflow: hidden;
+    border-radius: 0 0 0 100px;
+    .main-text{
+        h1,p{
+            font-family: 'Overpass', sans-serif;
+            z-index: 1;
+        }
+        h1{
+            font-weight: 600;
+            font-size: 3.5em;
+        }
+        p{
+            margin-bottom: 2.5rem;
+        }
+        button:first-child{
+            font-family: 'Ubuntu', sans-serif;
+            padding: 0.4rem 1rem;
+            background-color: white;
+            border-radius: 20px;
+            border: none;
+            color: hsl(353, 100%, 62%);
+            font-weight: 500;
+            margin-right: 5px;
+        }
+        button:first-child:hover{
+            background-color: hsl(355, 100%, 74%);
+            color: white;
+        }
+        button:last-child{
+            font-family: 'Ubuntu', sans-serif;
+            padding: 0.4rem 1rem;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 1px solid white;
+            color: white;
+            font-weight: 500;
+            margin-left: 5px;
+        }
+        button:last-child:hover{
+            background-color: white;
+            color: hsl(353, 100%, 62%);
+        }
+    }
+}

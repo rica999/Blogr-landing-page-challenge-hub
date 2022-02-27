@@ -1,0 +1,72 @@
+.body-1{
+    overflow: hidden;
+    font-family: 'Overpass', sans-serif;
+    background-image: url("images/illustration-editor-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 66%;
+    background-position: 157% 40%;
+    img{
+        display: none;
+    }
+    .title-body{
+        font-weight: 600;
+        font-size: 2rem;
+        padding: 8rem 0 5rem 0;
+        text-align: center;
+        margin: 0;
+    }
+    .body-1-content{
+        display: grid;
+        grid-template-columns: 0.5fr;
+        padding: 0 8em 0 7em;
+        margin-bottom: 12em;
+        .body-1-text{
+            padding-right: 2.5em;
+            .subtitle-body{
+                font-weight: 600;
+                font-size: 1.6rem;
+            }
+            .text-body{
+                font-size: 1em;
+                padding-bottom: 3em;
+                color:hsl(207, 13%, 34%)
+            }
+        }
+    }
+}
+@media screen and (max-width:980px) {
+    .body-1{
+        display: grid;
+        background-image: none;
+        text-align: center;
+        background-size: auto;
+        box-sizing: border-box;
+        justify-items: center;
+        img{
+            display: block;
+            width: 22em;
+            margin: 0;
+        }
+        .title-body{
+            font-size: 1.5rem;
+            padding: 6rem 0 2rem 0;
+        }
+        .body-1-content{
+            grid-template-columns: 1fr;
+            padding: 0 1em;
+            margin-bottom: 3em;
+            .body-1-text{
+                padding-right: 0;
+                .subtitle-body{
+                    font-weight: 600;
+                    font-size: 1.6rem;
+                }
+                .text-body{
+                    font-size: 1em;
+                    padding-bottom: 1.5em;
+                    color:hsl(207, 13%, 34%)
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.body-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Overpass', sans-serif;
+    background-image: url("images/bg-pattern-circles.svg"), linear-gradient(to right,hsl(237, 17%, 21%),hsl(237, 23%, 32%));
+    background-repeat: no-repeat;
+    background-position: -85% 90%;
+    height: 430px;
+    border-radius: 0 100px 0 100px;
+    img{
+        margin-top: -3em;
+        margin-left: 4em;
+    }
+    .body-2-text{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 10em;
+        padding-bottom: 3em;
+        p:first-child{
+            font-weight: 600;
+            font-size: 2rem;
+        }
+        p:last-child{
+            font-size: 1em;
+        }
+    }
+}
+@media screen and (max-width:980px) {
+    .body-2{
+        grid-template-columns: 1fr;
+        background-position: 50% 400%;
+        background-size: 160%;
+        height: auto;
+        border-radius: 0 100px 0 100px;
+        justify-items: center;
+        text-align: center;
+        margin-top: 5em;
+        img{
+            margin-top: -8em;
+            margin-left: 0;
+            width: 20em;
+        }
+        .body-2-text{
+            padding: 0 2em 3em;
+            padding-bottom: 3em;
+            p:first-child{
+                font-weight: 600;
+                font-size: 2rem;
+            }
+            p:last-child{
+                font-size: 1em;
+            }
+        }
+    }
+}
