@@ -1,4 +1,5 @@
 # Blogr-landing-page-challenge-hub
 CHALLANGE JUNIOR FRONTEND-MENTOR
 https://rica999.github.io/Blogr-landing-page-challenge-hub/
-![blogr page](https://user-images.githubusercontent.com/68082868/217395821-cf87614f-4b63-448d-8d08-5cb5a4a964ed.JPG)
+![desktop-design](https://user-images.githubusercontent.com/68082868/217555419-5867701e-ec92-41da-a431-c1a33e7af991.jpg)
+
